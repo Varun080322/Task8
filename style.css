@@ -1,0 +1,56 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.display-4{
+    font-weight:normal ;
+}
+.display-4 span{
+    font-weight: 600;
+}
+.para{
+    font-size: 20px;
+}
+.col-3{
+    background-color: rgb(236, 234, 234);
+    max-width: 55%;
+}
+.col-3 h5{
+    font-family:'Segoe UI';
+    font-weight: 600;
+}
+.col-3 button{
+    font-size: small;
+}
+i{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    transition: 0.3s ease;
+}
+i:hover,i:active{
+    transform: scale(1.3);
+}
+.abc{
+    justify-content: space-evenly !important;
+}
+.email-box{
+    border-radius: 15px;
+    height: 260px;
+}
+.blackbox{
+    background-color: black;
+}
+@media (max-width:550px) {
+    .abc{
+        flex-direction: column !important;
+        align-items: center; 
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .col-3{
+        margin: 20px 0;
+
+    }
+}
